@@ -1,0 +1,49 @@
+.cards{
+    width: 400px; ;
+    border:2px solid black ;
+    border-radius: 25px; 
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px black;
+ display: inline-block;
+}
+
+.cards:hover{
+    box-shadow: 4px 4px 20px palevioletred;
+}
+
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+h3{
+    color: deeppink;
+    text-align: center;
+    text-shadow: 10px;
+    
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+p{
+    color: black;
+
+}
+#catt{
+    height: 270px;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
